@@ -1,15 +1,83 @@
-*{
+* {
     margin: 0;
-    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px;
 }
-.main-headidng{
-    font-size: 28px;
+
+.primary-color {
+    color: red
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding:  50px 220px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 50px;
+    list-style: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.primary-btn{
     font-weight: 700;
-    color: cadetblue;
+    background-color: #FD6E0A;
+    padding: 25px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+
 }
-.olo{
-    background-color: #cccccc;
-    background-image: url("../images/header_bg.png");
-    height: 200px;
-    background-size: cover;
+nav h2{
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+    ;
+}
+/* header banner css */
+header{
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+    
+}
+.header-banner{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 40px;
+}
+.header-banner h1{
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+}
+.header-banner h3{
+    font-weight: 600;
+    font-size: 45px;
+}
+.header-banner h1,.header-banner h3,.header-banner p{
+    margin-bottom: 20px;
+}
+.header-banner p{
+    font-size: 18px;
+    color: #757575;
+}
+button{
+    border: 0px;
+}
+.primary-btn.contact{
+    background-color: #fff;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    margin-left: 15px;
 }
