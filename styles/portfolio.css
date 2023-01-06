@@ -7,3 +7,9 @@
     font-weight: 700;
     color: cadetblue;
 }
+.olo{
+    background-color: #cccccc;
+    background-image: url("../images/header_bg.png");
+    height: 200px;
+    background-size: cover;
+}
