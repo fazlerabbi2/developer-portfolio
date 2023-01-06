@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-headidng{
+    font-size: 28px;
+    font-weight: 700;
+    color: cadetblue;
+}
